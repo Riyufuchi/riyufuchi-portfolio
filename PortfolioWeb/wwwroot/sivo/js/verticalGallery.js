@@ -1,6 +1,6 @@
 let index = 0;
-const maxImg = 4; // num of imgs - 1
-const numOfImg = 5//6; // num of imgs on the page
+const maxImg = 5; // num of imgs - 1
+const numOfImg = 6; // num of imgs on the page
 let imgIndex = [];
 // Utils
 function insert(newElement, existingElement)

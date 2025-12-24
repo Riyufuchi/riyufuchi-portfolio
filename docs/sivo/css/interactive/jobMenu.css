@@ -57,7 +57,7 @@ If you want text inside of the container
 }
 .jobButtonText
 {
-	font-size: calc(var(--standard-text-font-size) * 2);
+	font-size: calc(var(--standard-text-font-size) * 1.5);
 	position: relative;
 	font-weight: bold;
 	padding-left: 10px;
@@ -85,10 +85,14 @@ If you want text inside of the container
 }
 @media only screen and (orientation: portrait)
 {
+.jobButtonText
+{
+	font-size: var(--standard-text-font-size);
+}
 .jobButton
 {
-	max-width: 80%;
-	min-width: 80%;
+	max-width: 40%;
+	min-width: 40%;
 	/*margin: auto;*/
 }
 .container {
