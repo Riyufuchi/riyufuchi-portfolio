@@ -91,8 +91,8 @@ If you want text inside of the container
 }
 .jobButton
 {
-	max-width: 40%;
-	min-width: 40%;
+	max-width: 66%;
+	min-width: 66%;
 	/*margin: auto;*/
 }
 .container {

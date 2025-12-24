@@ -61,7 +61,8 @@ html, body, /*ul, /*li, h1,*/ p, utf-8
 	scroll-behavior: smooth;
 	list-style: none;
 	color: var(--general-color);
-	font-family: Arial;
+	/*font-family: Arial;*/
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 	font-style: normal;
 	font-size: var(--standard-text-font-size);
 }
