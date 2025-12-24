@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>About me</title>
+	<base href="../../" />
+
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="pictures/logos/logo.png">
+	<link href="sivo/css/base/sivoBase.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/base/sivoCustom.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/header/mobileMenu.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/interactive/interactive.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/aboutme.css" rel="stylesheet" type="text/css">
+	
+	<script type="text/javascript" src="sivo/js/menuBar.js"></script>
+	<script type="text/javascript" src="sivo/js/mobileMenu.js"></script>
+	<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+	<script>
+		window.onload=function()
+		{
+			createSpacer();
+			createMenu();
+			kofiWidgetOverlay.draw('riyufuchi', {'type': 'floating-chat','floating-chat.donateButton.text': 'Donate','floating-chat.donateButton.background-color': '#00bfa5','floating-chat.donateButton.text-color': '#fff'});
+		}
+		window.onorientationchange = function()
+		{
+			createSpacer();
+		}
+	</script>
+
+</head>
+<body style="background-image: url('pictures/backgrounds/MountainLabPanorama.png');">
+	<header class="sivoHeader" id="navbar">
+		<div class="sivoHeaderContainer">
+			<a href="index.html" class="sivoHeaderLogo"><img class="sivoHeaderLogo" src="pictures/logos/logo.png" alt="company logo"></a>
+			<a href="javascript:void(0);" class="sivoHeaderMenuButton" onclick="mobileMenu()">≡</a>
+		</div>
+	</header>
+	<nav class="sivoHeaderMenuContainer" id="sivoLinks">
+		<!-- links are added via javascript -->
+	</nav>
+	<main>
+		<section>
+<article class="about-me">
+<img src="https://storage.ko-fi.com/cdn/useruploads/8ca906a0-c769-4a95-8858-f1eeac6829d5_4fec7581-2568-4034-ab4a-bfc2fb0f104e.png" class="profilePic">
+	<h2>👋 Hi, I’m Riyufuchi</h2>
+
+	<ul>
+		<li><strong>Favorite programming languages:</strong> C/C++, C#, Java</li>
+		<li><strong>Favorite Linux distro:</strong> Ubuntu</li>
+	</ul>
+
+	<blockquote>
+		Only the people who are crazy enough to think they can change the world
+		are the ones that do.
+		<footer>— Steve Jobs</footer>
+	</blockquote>
+</article>
+
+										<iframe id='kofiframe' src='https://ko-fi.com/riyufuchi/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:25%;margin:auto;padding:4px;background:#3d3d5c;' height='712' title='riyufuchi'></iframe>
+		</section>
+	</main>
+	<footer id="footer">
+		<!-- links are added via javascript -->
+	</footer>
+</body>
+</html>
