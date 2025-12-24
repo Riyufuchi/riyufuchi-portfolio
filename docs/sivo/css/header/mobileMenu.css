@@ -33,14 +33,14 @@
 .sivoHeaderLogo
 {
 	width: auto;
-	height: 100px;
+	height: 80px;
 	border: 0;
 	float: left;
 	border-radius: 50%;
 }
 .sivoHeaderMenuButton
 {
-	font-size: 86px;
+	font-size: 64px;
 	margin-left: auto;
 	color: var(--mobile-menu-button-color);
 	width: auto;
