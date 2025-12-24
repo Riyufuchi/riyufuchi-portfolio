@@ -1,0 +1,92 @@
+/* Style the navigation menu with button for extendable menu */
+.sivoHeader
+{
+	/*background-color: #008080; #95BEEA; #009EB0;*/
+	width: 100%;
+	height: auto;
+	background-color: var(--mobile-menu-backgroud-color);
+	padding-top: 4px;
+	padding-bottom: 4px;
+	/*text-align: center;*/
+	position: fixed;
+	z-index: 2;
+	top: 0px;
+}
+/* Style navigation menu links */
+
+.sivoNavButton
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+	padding: 16px 16px;
+	text-decoration: none;
+	font-size: 32px;
+}
+.sivoHeaderContainer
+{
+	margin: auto;
+	width: 80%;
+	display: flex;
+	align-items: center;
+}
+.sivoHeaderLogo
+{
+	width: auto;
+	height: 100px;
+	border: 0;
+	float: left;
+}
+.sivoHeaderMenuButton
+{
+	font-size: 86px;
+	margin-left: auto;
+	color: var(--mobile-menu-button-color);
+	width: auto;
+	height: 100%;
+}
+.sivoHeaderMenuButton:hover
+{
+	color: var(--mobile-menu-button-hover-color);
+}
+.sivoHeaderMenuContainer
+{
+	text-align: center;
+	/*position: relative;*/
+	background-color: inherit;
+	display: none;
+	margin: auto;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	width: 100%;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	z-index: 1;
+	position: fixed;
+}
+@media only screen and (orientation: portrait)
+{
+	.sivoNavButton
+	{
+		/*padding: 8px 8px;*/
+		display: block;
+		font-size: 17px;
+	}
+	.sivoHeaderContainer
+	{
+		width: 95%;
+	}
+	.sivoHeaderLogo
+	{
+		width: 64px;
+		height: auto;
+	}
+	.sivoHeaderMenuButton
+	{
+		font-size: 43px;
+	}
+	.sivoHeader #sivoLinks
+	{
+		font-size: 17px;
+	}
+}

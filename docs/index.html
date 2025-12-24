@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Riyufuchi's portfolio</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Riyufuchi's portfolio showcasing C/C++, C#, Java, web development, and other technologies.">
+	<meta name="keywords" content="C++, C#, Java, ASP.NET Core, Web Development, Portfolio">
+  <meta name="author" content="Riyufuchi">
+  <meta name="copyright" content="© 2025 Riyufuchi. All rights reserved.">
+	<meta name="robots" content="index, follow">
+	
+	<link rel="icon" href="pictures/logos/logo.png">
+	<link href="sivo/css/base/sivoBase.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/base/sivoCustom.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/slideshow/slideshow.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/header/mobileMenu.css" rel="stylesheet" type="text/css"> <!-- Mobile menu styles -->
+	<link href="sivo/css/visualEffects/specialSection.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/visualEffects/effects.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/visualEffects/lines.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/interactive/jobMenu.css" rel="stylesheet" type="text/css">
+	<link href="sivo/css/interactive/pageTabs.css" rel="stylesheet" type="text/css">
+
+	<script src="sivo/js/mobileMenu.js"></script> <!-- Mobile menu js -->
+	<script src="sivo/js/menuBar.js"></script>
+	<script>
+		window.onload=function()
+		{
+			createMenu();
+			createSpacer();
+			//document.getElementById("defaultService").click();
+			document.getElementById("webapp").style.display = "block";
+		}
+		window.onorientationchange = function()
+		{
+			createSpacer();
+		}
+	</script>
+</head>
+<body style="background-image: url('pictures/backgrounds/AsteroidOuterSpace.png');">
+	<header class="sivoHeader" id="navbar">
+		<div class="sivoHeaderContainer">
+			<a href="index.html" class="sivoHeaderLogo"><img class="sivoHeaderLogo" src="pictures/logos/logo.png" alt="company logo"></a>
+			<a href="javascript:void(0);" class="sivoHeaderMenuButton" onclick="mobileMenu()">≡</a>
+		</div>
+	</header>
+	<nav class="sivoHeaderMenuContainer" id="sivoLinks">
+	</nav>
+	<main>
+		<section>
+			<div class="simitrut-leftLine"></div>
+			<article class="simitrut-mainArticle">
+				<h1 class="simitrut-title"><b>Welcome&nbsp;to&nbsp;my&nbsp;portfolio</b></h1>
+				<p>
+				  This portfolio is a <strong>work in progress</strong> and also serves as a
+		      <strong>demonstration ASP .NET Core web application</strong>.
+		      The dynamic backend cannot be hosted on GitHub Pages and must be run
+		      locally or on an ASP .NET–capable server.
+	      </p>
+				<p>
+				  Discover more <a href="sivoWeb/html/about.html">about me here</a>.
+				</p>
+			</article>
+		</section>
+		<div class="section">
+			<div class="container">
+				<div id="defaultService" class="jobButton" onclick="buttonClick(1)">
+					<div class="webapp"></div>
+					<div class="jobButtonText">Full-Stack Web</div>
+				</div>
+				<div class="jobButton" onclick="buttonClick(2)">
+					<div class="app"></div>
+					<div class="jobButtonText">C / C++ Development</div>
+				</div>
+				<div class="jobButton" onclick="buttonClick(3)">
+					<div class="other"></div>
+					<div class="jobButtonText">Other Technologies</div>
+				</div>
+			</div>
+			<script>
+				function buttonClick(id)
+				{
+					switch(id)
+					{
+						case 1: window.location.href = "#webappArticle"; break;
+						case 2: window.location.href = "#customAppsArticle"; break;
+						case 3: window.location.href = "#otherServices"; break;
+						default: alert("Button ID error"); break;
+					}
+				}
+ 			</script>
+		</div>
+		<div class="sectionStyle">
+			<!--<div id="back" type="button" class="slideButton" onclick=""><b>←</b></div>-->
+			<img src="pictures/slides/Under-Construction-Bulldozer.gif" alt="slide" class="slide">
+			<!--<div id="back" type="button" class="slideButton" onclick=""><b>></b></div>-->
+		</div>
+		<section class="blur5x roundBorder25x section90">
+			<h1>What I work with</h1>
+			<!-- -->
+			<article id="webappArticle">
+	      <h2>Web & Backend Development</h2>
+
+	      <ul>
+		      <li>HTML, CSS, JavaScript – responsive and accessible layouts</li>
+		      <li>ASP .NET Core – REST APIs and backend services</li>
+		      <li>Client–server communication with native applications (C++)</li>
+		      <li>Authentication, routing, and structured frontend architecture</li>
+	      </ul>
+
+	      <p>
+		      This portfolio itself serves as a demonstration project combining
+		      a modern frontend with an ASP .NET Core backend.
+	      </p>
+      </article>
+			<!-- -->
+			<article id="customAppsArticle">
+	      <h2>C / C++ & Native Software</h2>
+
+	      <ul>
+		      <li>High-performance numerical and scientific calculations</li>
+		      <li>Command-line tools and native desktop applications</li>
+		      <li>Cross-platform development (Linux, Windows, macOS)</li>
+		      <li>Use of modern C++ features, STL, Boost, and clean architecture</li>
+	      </ul>
+
+	      <p>
+		      I focus on correctness, performance, and maintainability,
+		      with experience in both low-level C and modern C++.
+	      </p>
+      </article>
+			<!-- -->
+			<article id="otherServices">
+	      <h2>Other Technologies</h2>
+
+	      <ul>
+	        <li>C# – desktop and backend applications & small .NET Core utils</li>
+		      <li>Java – desktop applications</li>
+		      <li>Databases – Oracle, SQLite</li>
+		      <li>Embedded & IoT experiments</li>
+		      <li>Linux tooling, Git, CMake</li>
+		      <li>Technical documentation (LaTeX)</li>
+	      </ul>
+
+	      <p>
+		      I enjoy exploring different technologies and understanding
+		      how systems work across the full stack.
+	      </p>
+      </article>
+			<article>
+				<h2>And much more!</h2>
+				<p>Stuff that is just for fun.</p>
+			</article>
+		</section>
+		<section>
+			<article id="contact" class="simitrut-contactArticle">
+				<h2 class="simitrut-contactTitle">Contacts</h2>
+				<p class="simitrut-paragraph">
+					<table>
+						<tr>
+							<th>✉️ Email:</th>
+							<td> <a href="mailto:"> No contact mail available</a> </td>
+						</tr>
+						<tr>
+							<th>📞 Telephone:</th>
+							<td> <a href="tel:+555123456789"> No contact phone number available</a> </td>
+						</tr>
+					</table>
+				</p>
+			</article>
+			<div class="simitrut-rightHorizontalLine"></div>
+			<div class="simitrut-rightVerticalLine"></div>
+		</section>
+	</main>
+	<footer id="footer">
+		<!-- links are added via javascript -->
+	</footer>
+</body>
+</html>
