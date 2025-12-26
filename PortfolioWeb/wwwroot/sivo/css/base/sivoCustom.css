@@ -36,6 +36,26 @@
 	margin-top: 0;
 	margin-bottom: 1.2rem;
 }
+.modernArticle p {
+	color: #eaeaea;
+}
+.modernArticle strong {
+	color: #9acbff;
+	font-weight: 600;
+}
+
+.modernArticle blockquote {
+	padding-left: 1.2rem;
+	border-left: 3px solid #3d3d5c;
+	color: #ccc;
+	font-style: italic;
+}
+
+.modernArticle blockquote footer {
+	margin-top: 0.5rem;
+	font-size: 0.9rem;
+	color: #888;
+}
 /*
 .tableMenu
 {

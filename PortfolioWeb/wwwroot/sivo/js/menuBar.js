@@ -1,5 +1,5 @@
-const hrefs = ["index.html", "html/verticalGallery.html", "html/about.html", "../index.html#contact", "html/login.html"];
-const hrefTexts = ["Home", "Gallery", "About me", "Contact", "Login"];
+const hrefs = ["index.html", "html/verticalGallery.html", "../index.html#contact", "html/login.html"];
+const hrefTexts = ["Home", "Gallery", "Contact", "Login"];
 const htmlRootFolder = "sivoWeb/";
 
 function createMenu()
