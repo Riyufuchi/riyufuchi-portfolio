@@ -62,11 +62,11 @@ If you want text inside of the container
 	font-weight: bold;
 	padding-left: 10px;
 	padding-right: 10px;
+	color: #eaeaea;
 }
 .jobButton:hover
 {
 	background-color: var(--job-button-background-color);
-	color: white;
 	position: relative;
 	text-align: center;
 	display: flex;

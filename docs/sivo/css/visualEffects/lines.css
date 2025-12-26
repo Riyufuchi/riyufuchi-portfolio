@@ -22,6 +22,11 @@
 	/*margin-bottom: 8px;*/
 	border-left: 4px solid var(--line-color);
 	padding: 0px;
+	color: #eaeaea;
+}
+.simitrut-mainArticle p
+{
+	color: #eaeaea;
 }
 .simitrut-title
 {
@@ -69,6 +74,7 @@
 	margin-top: 90px;
 	padding-right:32px;
 	padding-top: 108px;
+	color: #eaeaea;
 }
 .simitrut-paragraph
 {
@@ -108,6 +114,7 @@
 		margin-top: 0px;
 		padding-top: 20px;
 		margin-bottom: 14px;
+		
 	}
 	.simitrut-contactArticle
 	{
