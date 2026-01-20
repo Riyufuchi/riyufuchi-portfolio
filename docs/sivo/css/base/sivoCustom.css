@@ -31,6 +31,7 @@
 	margin-bottom: 40px;
 	color: #eaeaea;
 	background: #111;
+	box-sizing: border-box;
 }
 .modernArticle h2 {
 	margin-top: 0;
@@ -62,6 +63,7 @@
 	border-radius: 6px;
 	background-color: #111;
 	color: #eaeaea;
+	box-sizing: border-box;
 }
 /*
 .tableMenu
