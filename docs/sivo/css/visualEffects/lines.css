@@ -27,6 +27,8 @@
 .simitrut-mainArticle p
 {
 	color: #eaeaea;
+    text-align: left;
+    padding-left: 5%;
 }
 .simitrut-title
 {

@@ -14,8 +14,8 @@
 {
 	/*General*/
 	--body-backgroud-color: #3d3d5c;
-	--a-hover-color: hotpink;
-	--a-color: #cc80ff;
+	--a-hover-color: #cc80ff;
+	--a-color: hotpink;
 	--a-active-color: gray;
 	--general-color: #00ccaa;
 	--footer-color: #00ccaa;
@@ -31,13 +31,14 @@
 	--mobile-menu-button-color: black;
 	--mobile-menu-button-hover-color: #cc80ff;
 	/*Interactive*/
-	--job-button-background-color: purple;
+	--job-button-background-color: #cc80ff;
 	/*Forms*/
 	--form-color: white;
 	--form-background-color: rgba(211, 211, 197, 0.6);
 	--form-border: 3px solid white;
-	
-	/**Font sizes*/
+	/*
+    Font sizes
+    */
 	--simitrut-title-font-size: 76px;
 	--standard-text-font-size: 24px;
 	--h1-size: calc(var(--standard-text-font-size) * 2.5);

@@ -28,7 +28,6 @@
 		{
 			createMenu();
 			createSpacer();
-			//document.getElementById("defaultService").click();
 			document.getElementById("webapp").style.display = "block";
 		}
 		window.onorientationchange = function()
@@ -51,15 +50,16 @@
 			<div class="simitrut-leftLine"></div>
 			<article class="simitrut-mainArticle">
 				<h1 class="simitrut-title"><b>Welcome</b></h1>
+                <p><strong>I’m Riyufuchi</strong><br><br>I am a software developer with a strong focus on C++. I also develop in C# and work on IoT projects.
 			</article>
 		</section>
 		<section id="aboutme">
 		  <article class="modernArticle">
 	      <h2>Quickly about me</h2>
-	      <p><strong>👋 Hi, I’m Riyufuchi</strong><br><br>I am a software developer with a strong focus on C++. I also develop in C# and work on IoT projects.
 	      <ul>
-		      <li><strong>Favorite programming languages:</strong> C/C++, C#, Java</li>
+		      <li><strong>Favorite programming languages:</strong> C++, C# and C</li>
 		      <li><strong>Favorite Linux distro:</strong> Ubuntu</li>
+              <li><strong>Favorite IDE's:</strong> Qt Creator and Visual Studio Code</li>
 	      </ul>
 	      <blockquote>
 		      Only the people who are crazy enough to think they can change the world
@@ -75,7 +75,7 @@
 			<!--<div id="back" type="button" class="slideButton" onclick=""><b>></b></div>
 		</div>-->
 		<section >
-			<h1 class="whatIdoHeader">What I do</h1>
+			<h1 class="whatIdoHeader" id="what_i_do_id">What I do</h1>
 			<div class="container">
 				<div class="jobButton" onclick="buttonClick(2)">
 					<div class="app"></div>
@@ -114,6 +114,10 @@
                     <p>I have created a library called <a href="https://github.com/Riyufuchi/ConsoleLib">ConsoleLib</a> that provided tools to make cross-platform CLI applications. Some tools are about coloring output across platforms with unified "interface" or menu that is controllable with arrows and enter. Features of this library can be seen in project <a href="https://github.com/Riyufuchi/ConsoleArt">ConsoleArt</a> for which they were originally created.</p>
                 <h3>Summary</h3>
                     <p>I focus on correctness, performance, and maintainability, with experience in both low-level C and modern C++.</p>
+                <blockquote>
+                    C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off.
+                    <footer>— Bjarne Stroustrup</footer>
+                </blockquote>
             </article>
 			<!-- -->
             <article class="modernArticle" id="iot_article">
@@ -139,7 +143,9 @@
                         <li>Technical documentation (LaTeX)</li>
                     </ul>
                 <h3>C#</h3>
-                    <p>I was focused on GUI applications in C# using WPF, but now I focus on small .NET Core tools and I'm experimenting with ASP .NET Core. I can also create multi-threaded asynchronous applications in C#.</p>
+                    <p>I am focused on GUI applications in C# using WPF, but now also on small .NET Core tools. I can also create multi-threaded asynchronous applications in C#.</p>
+                <h4>Websites and ASP .NET</h4>
+                    <p>I also some do static websites using HTML 5, but I'm also planning on experimantating with ASP .NET Core.</p>
                 <h3>Summary</h3>
                     <p>I enjoy exploring different technologies and understanding how systems work.</p>
             </article>
