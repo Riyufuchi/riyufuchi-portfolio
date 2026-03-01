@@ -1,8 +1,8 @@
 /* Styles for custom element behavior */
 .profilePic
 {
-	width: 10% /*125px*/;
-	height: 10% /*125px*/;
+	width: 10%;
+	height: 10%;
 	border-radius: 50%;
 	display: block;
 	background-color: inherit;

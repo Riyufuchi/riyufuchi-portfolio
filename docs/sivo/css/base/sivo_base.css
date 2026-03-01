@@ -62,7 +62,6 @@ html, body, /*ul, /*li, h1,*/ p, utf-8
 	scroll-behavior: smooth;
 	list-style: none;
 	color: var(--general-color);
-	/*font-family: Arial;*/
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 	font-style: normal;
 	font-size: var(--standard-text-font-size);
@@ -83,19 +82,12 @@ main
 	text-align: center;
 	min-width: 300px;
 	min-height: 225px;
-	/*margin-top: 10px;*/
+	margin-top: 16px;
 }
-section
+section, .section
 {
 width: 80%;
 display: inline-block;
-/*border-bottom: 3px solid #3d3d5c;*/
-}
-/* For div that wokrs as section*/
-.section
-{
-	width: 80%;
-	display: inline-block;
 }
 .section90
 {
@@ -104,12 +96,9 @@ display: inline-block;
 }
 article
 {
-/*position: relative;*/
-/*float: left;
-/*background-color: lightblue;*/
 width: 100%;
 min-height: 60px;
-max-height: 1000px; /*275px*/
+max-height: 1000px;
 word-wrap: normal;
 overflow-x: auto;
 overflow-y: auto;
@@ -118,13 +107,7 @@ display: inline-block;
 margin-top: 10px;
 margin-bottom: 10px;
 padding: 10px;
-/*border-radius: 25px 25px 25px 25px;*/
 }
-/*h1, h2, h3, h4
-{
-	margin-top: 14px;
-	margin-bottom: 14px;
-}*/
 h1
 {
 	font-size: var(--h1-size);
@@ -144,54 +127,14 @@ h4, h5, h6
 /* Lists styes */
 ul
 {
-	/*width: 80%;
-	display: inline-block;*/
 	list-style-type: arrows;
-	/*background-color: yellow;*/
 }
-/*
-ol
-{
-	/*margin-top: 1px;
-	margin-bottom: 1px;/
-}*/
 dt
 {
 	font-weight: bold;
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
-/*
-header
-{
-}
-nav
-{
-}*/
-/*
-iframe
-{
-	min-width: 640px;
-	max-width: 50%;
-	height: 380px;
-	/*width: 100%;
-	min-height: 720px;
-	max-height: 100%;
-
-	float: center;
-	border-radius: 25px 25px 25px 25px;
-}
-*/
-/*
-table, td, tr, th
-{
-	/*
-	border-width: 4px;
-	border-style: solid;
-	border-color: aqua;
-	border-collapse: collapse;
-	//
-}*/
 table
 {
 	width: auto;
@@ -219,10 +162,7 @@ ul.a
 }
 a.a, a:visited
 {
-	/*text-decoration: none;*/
-	/*color: #00ffd5;*/
 	font-weight: bolder;
-	/*font-size: 76px;*/
 	font-family: Arial;
 }
 a.a:hover
@@ -238,7 +178,6 @@ a.a:active
 a
 {
 	color:var(--a-color);
-	/*color: #c44FAA;*/
 	text-decoration: none;
 }
 a:hover
@@ -278,16 +217,7 @@ a:hover
 	{
 		font-size: var(--h4-6-size-mobile);
 	}
-	section
-	{
-		width: 95%;
-		/*
-		width: 100%;
-		margin-left: 10px;
-		margin-right: 10px;
-		*/
-	}
-	.section
+	section, .section
 	{
 		width: 95%;
 	}

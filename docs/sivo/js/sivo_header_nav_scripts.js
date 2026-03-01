@@ -11,6 +11,18 @@ function mobileMenu()
 		x.setAttribute("style","display: block;margin-top:" + (document.getElementById("navbar").clientHeight) + "px");
 	}
 }
+function showStaticMenu()
+{
+	let x = document.getElementById("sivoLinks");
+	if (x.style.display === "block")
+	{
+		x.style.display = "none";
+	}
+	else
+	{
+		x.setAttribute("style","display: block;");
+	}
+}
 function isPhoneLandscape()
 {
 	return ((window.matchMedia("(orientation: landscape)").matches) && (/Mobi|Android/i.test(navigator.userAgent)));

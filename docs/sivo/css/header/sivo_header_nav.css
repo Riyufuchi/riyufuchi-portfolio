@@ -1,19 +1,25 @@
 /* Style the navigation menu with button for extendable menu */
 .sivoHeader
 {
-	/*background-color: #008080; #95BEEA; #009EB0;*/
 	width: 100%;
 	height: auto;
 	background-color: var(--mobile-menu-backgroud-color);
 	padding-top: 4px;
 	padding-bottom: 4px;
-	/*text-align: center;*/
 	position: fixed;
 	z-index: 2;
 	top: 0px;
 }
+.sivoStaticHeader
+{
+	width: 100%;
+	height: auto;
+	background-color: var(--mobile-menu-backgroud-color);
+	padding-top: 4px;
+	padding-bottom: 4px;
+	position: relative;
+}
 /* Style navigation menu links */
-
 .sivoNavButton
 {
 	margin-left: 5px;
@@ -64,6 +70,19 @@
 	border-bottom: 3px solid white;
 	z-index: 1;
 	position: fixed;
+}
+.sivoStaticHeaderMenuContainer
+{
+	text-align: center;
+	position: relative;
+	background-color: inherit;
+	display: none;
+	margin: auto;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	width: 100%;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
 }
 @media only screen and (orientation: portrait)
 {
